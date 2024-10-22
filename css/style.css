@@ -23,7 +23,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .red-color {
-    color: var(--red-color) !important;
+    color: var(--red-color);
 }
 
 img.center {
