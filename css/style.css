@@ -26,6 +26,10 @@ input::placeholder, textarea::placeholder {
     color: var(--red-color);
 }
 
+.red-color-card {
+    color: var(--red-color) !important;
+}
+
 img.center {
     display: block;
     margin : auto;
