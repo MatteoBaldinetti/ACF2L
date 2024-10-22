@@ -4,7 +4,7 @@
 
 h1 {
     font-family: 'Jomhuria';
-    font-size: 6rem;
+    font-size: 6rem !important;
 }
 
 .nav-large-width {
