@@ -23,6 +23,10 @@ input::placeholder, textarea::placeholder {
 }
 
 .red-color {
+    color: var(--red-color);
+}
+
+.red-color-card {
     color: var(--red-color) !important;
 }
 
