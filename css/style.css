@@ -23,7 +23,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .red-color {
-    color: var(--red-color);
+    color: var(--red-color) !important;
 }
 
 img.center {
@@ -95,6 +95,10 @@ button.form {
 
 .grey-background {
     background-color: var(--grey-color);
+}
+
+.section-cover{
+    height: 92.5vh;
 }
 
 #header {
