@@ -1,6 +1,8 @@
 :root {
     --red-color: #BF1E2D;
-    --grey-color : #D9D9D9;
+    --light-grey-color : #D9D9D9;
+    --grey-color : #797979;
+    --blue-color : #E2E3F8;
 }
 
 body {
@@ -10,6 +12,10 @@ body {
 h1 {
     font-family: 'Jomhuria';
     font-size: 6rem !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--light-grey-color);
 }
 
 .nav-large-width {
@@ -25,11 +31,16 @@ img.center {
     margin : auto;
 }
 
+button.center {
+    display: block;
+    margin : auto;
+}
+
 div.custom-width {
     width: 25% !important;
 }
 
-button.center {
+button.header {
     display: block;
     margin : auto;
     margin-top: 20%;
@@ -63,14 +74,28 @@ button.red-color:hover {
 }
 
 .grey-border {
-    border: 4px solid var(--grey-color);
+    border: 4px solid var(--light-grey-color);
     border-radius: 30px;
 }
 
 .grey-circle {
-    background: var(--grey-color);
+    background: var(--light-grey-color);
     border-radius: 100%;
-  }
+}
+
+.blue-background {
+    background-color: var(--blue-color);
+}
+
+button.form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.grey-background {
+    background-color: var(--grey-color);
+}
 
 #header {
     position: relative;
