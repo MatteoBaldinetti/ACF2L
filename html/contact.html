@@ -5,15 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aéro-Club de Frotey-les-Lures</title>
         <link href="../css/style.css" rel="stylesheet" />
-        <link href='https://fonts.googleapis.com/css?family=Jomhuria' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Kadwa' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Jomhuria' rel='stylesheet'> <!--Police d'écriture-->
+        <link href='https://fonts.googleapis.com/css?family=Kadwa' rel='stylesheet'> <!--Police d'écriture-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Framework permettant des animations lors du scroll-->
+        <!--Les animations se trouvent dans les balises et tout ce 
+        qui est en lien avecle framework AOS commence par data-aos"-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid ms-5">
                 <div class="nav-large-width ms-5">
-                    <img src="../assets/images/logo.png" alt="LogoACF2L" width="125" height="auto">
+                    <img src="../assets/images/dark_logo.png" alt="LogoACF2L" width="12%" height="auto">
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -34,17 +37,17 @@
         </nav>
         <section class="pb-5">
             <div class="container">
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col-md-12">
-                        <h2 class="text-center red-color mt-5">Contactez nous !</h2>
-                        <p class="text-center fs-5 mt-4">Laissez votre message, nous vous contacterons dans la semaine</p>
+                        <h2 class="text-center red-color mt-5" data-aos="fade-down" data-aos-once="true">Contactez nous !</h2>
+                        <p class="text-center fs-5 mt-4" data-aos="fade-down" data-aos-once="true" data-aos-delay="50">Laissez votre message, nous vous contacterons dans la semaine</p>
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-once="true">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2685.883687037541!2d6.491747375890606!3d47.68667878244498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47925b3d737deb5f%3A0xedb60e6c7628d859!2s62%20Av.%20de%20la%20R%C3%A9publique%2C%2070200%20Lure!5e0!3m2!1sfr!2sfr!4v1729585539408!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-delay="150" data-aos-once="true">
                         <form>
                             <div class="row">
                                 <div class="col-md-6">
@@ -107,7 +110,7 @@
                     </div>
                     <div class="col-md-4 position-relative">
                         <div class="position-absolute top-50 start-50 translate-middle">
-                            <img src="./assets/images/logo.png" class="center" alt="Logo ACF2L" width="125" height="auto">
+                            <img src="../assets/images/logo.png" class="center" alt="Logo ACF2L" width="125" height="auto">
                             <p class="text-center mt-3">Aéro-Club de<br/>Frotey-les-Lure</p>
                         </div>    
                     </div>
@@ -127,6 +130,8 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Framework permettant des animations lors du scroll-->
+        <script>AOS.init() //Initialisation du framework pour animation</script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

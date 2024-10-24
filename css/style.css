@@ -1,8 +1,9 @@
 :root {
     --red-color: #BF1E2D;
-    --light-grey-color : #D9D9D9;
-    --grey-color : #797979;
-    --blue-color : #E2E3F8;
+    --light-grey-color: #D9D9D9;
+    --grey-color: #797979;
+    --lighter-grey-color: #F5F5F5;
+    --blue-color: #E2E3F8;
 }
 
 body {
@@ -20,6 +21,45 @@ input::placeholder, textarea::placeholder {
 
 .nav-large-width {
     width: 50%;
+}
+
+.navbar {
+    transition: all 0.3s;
+}
+
+.navlink {
+    color: #cacaca;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color : #f3f3f3;
+    transition: all 0.3s;
+}
+
+.navlink-active {
+    color: white;
+    text-decoration: none;
+}
+
+.dark-navlink {
+    color: #8d8d8d;
+    text-decoration: none;
+}
+
+.dark-navlink:hover {
+    color : #444444;
+    transition: all 0.3s;
+}
+
+.dark-navlink-active {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-scrolled {
+    background-color: white;
+    color: black;
 }
 
 .red-color {
@@ -91,6 +131,10 @@ button.red-color:hover {
     background-color: var(--blue-color);
 }
 
+.light-grey-background {
+    background-color: var(--lighter-grey-color);
+}
+
 button.form {
     width: 100%;
     padding: 10px;
@@ -99,6 +143,10 @@ button.form {
 
 .grey-background {
     background-color: var(--grey-color);
+}
+
+.white-background {
+    background-color: white;
 }
 
 .section-cover{
