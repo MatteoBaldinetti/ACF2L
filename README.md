@@ -1,4 +1,6 @@
-# Liste des problèmes
+# Projet réalisé par Mattéo BALDINETTI & Ken DINH
+
+## Liste des problèmes
 -	Le gros problème du site est qu’il n’est composé que d’une seule page, il faudrait faire des pages différentes pour certaines catégories telle que les contacts afin de faciliter la navigation et la recherche d’information dans le site
 
 -	La police d’écriture utilisé pour le header n’est pas esthétique et ne colle pas avec le design global du site
@@ -13,6 +15,6 @@
 
 -	Plusieurs liens sur la page ne fonctionnent pas ce qui ne rend pas la navigation logique et intuitive
 
-# Lien vers le Figma 
+## Lien vers la maquette Figma 
 
 https://www.figma.com/design/5N7Bx0F0mzx3mMBAd4fKPL/ACF2L?node-id=0-1&t=YCmli0KD7WhKigi4-1
