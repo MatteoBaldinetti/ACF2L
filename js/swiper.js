@@ -5,7 +5,7 @@ var swiper = new Swiper(".mySwiper", {
     watchSlidesProgress: true,
   });
   var swiper2 = new Swiper(".mySwiper2", {
-    spaceBetween: 10,
+    spaceBetween: 7,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",

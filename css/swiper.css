@@ -64,3 +64,7 @@ body {
     max-height: 100%;
     object-fit: contain;
 }
+
+#small-swiper {
+    justify-content: center;
+}
